@@ -15,5 +15,12 @@ pipeline {
             }
                    }
         }
+        stage('package stage'){
+                steps{
+                withMaven(maven: 'maven'){
+                sh 'mvn clean package'
+            }
+                   }
+        }
     }
 }
