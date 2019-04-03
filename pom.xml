@@ -40,18 +40,18 @@
 		</dependency> -->
 	</dependencies>
 	
-	//<distributionManagement>
-		//<repository>
-	//		<id>nexus</id>
-	//		<name>Release</name>
-	//		<url>http://http://3.17.77.99:8081/repository/SAMPLE-RELEASE/</url>
-	//	</repository>
-	//	<snapshotRepository>
-	//		<id>nexus</id>
-	//		<name>Snapshot</name>
-	//		<url>http://http://3.17.77.99:8081/repository/SAMPLE-SNAPSHOT/</url>
-	//	</snapshotRepository>
-  	//</distributionManagement>
+	<distributionManagement>
+		<repository>
+		<id>nexus</id>
+			<name>Release</name>
+			<url>http://http://13.233.75.160:8081/repository/maven-rel/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Snapshot</name>
+			<url>http://http://13.233.75.160:8081/repository/maven-snap/</url>
+		</snapshotRepository>
+  	</distributionManagement>
 	
 	
 <build>
