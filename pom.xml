@@ -32,14 +32,14 @@
 		    <artifactId>itextpdf</artifactId>
 		    <version>5.0.6</version>
 		</dependency>
-               <!---
+               <!--
 		 <dependency>
 		  <groupId>org.sonarsource.java</groupId>
 		  <artifactId>sonar-jacoco-listeners</artifactId>
 		  <version>3.8</version>
 		  <scope>test</scope>
 		</dependency> 
-               --->
+               -->
 	</dependencies>
 	
 	<distributionManagement>
