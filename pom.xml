@@ -10,6 +10,10 @@
 	<properties>
 		<docker.image.prefix>satheesh25</docker.image.prefix>
 	</properties>	
+	<properties>
+		<project.build.sourceENccoding>UTF-8</project.build.sourceENccoding>
+		<sonar.language>java</sonar.language>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
